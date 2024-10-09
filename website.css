@@ -53,19 +53,65 @@
    color: black;
 }
 
+.footer-nav ul {
+list-style-type: none;
+padding: 0%;
+margin: 0%;
+}
+
+.footer-nav li {
+   display: inline;
+   margin-right: 20px;
+}
+
+.footer-nav a {
+   text-decoration: #E1CEB2;
+   color: black;
+}
+
+.container {
+   padding: 20px;
+   background-color: #E1CEB2;
+}
+
+input [type=text], input[type=sumit] {
+   width: 100%;
+   padding: 12%;
+   margin: 8px 0;
+   display: inline; 
+   border: 1px solid #ccc;
+   box-sizing: border-box;
+}
+
+input[type=checkbox] {
+   margin-top: 16px;
+}
+
+input[type=sumit] {
+   background-color: #04AA6D;
+   color: white;
+   border: none;
+}
+input[type=submit]:hover {
+   opacity: 0.8;
+}
+
 .home-image {
    display: block;
    margin-left: auto;
    margin-right: auto;
-   border-radius: 8px;
+   width: 80%;
+   height: 50%;
 }
 
 .work {
    float: left;
-   width: 175px;
-   height: 150px;
+   width: 43%;
+   height: 49%;
    position: absolute;
    object-fit: contain;
+   padding: 20px;
+   margin: auto;
 }
 .heading {
    float: right;
@@ -73,4 +119,7 @@
 
 .text {
    margin-left: 50%;
+   padding: 10%;
+   width: 30%;
+   height: 30%;
 }
